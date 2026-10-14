@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and outputs (keep out of Git)
+.DS_Store
+data/
+artifacts/
+original_dataset/
+all_job_post*.csv
+*.joblib
