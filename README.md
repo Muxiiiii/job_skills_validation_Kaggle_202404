@@ -7,6 +7,8 @@ This repository is part of a larger project: validating an analysis pipeline bui
 1.3M LinkedIn Jobs & Skills dataset. **It currently covers only the 1,167-row dataset**; it does not
 yet load the 1.3M data or evaluate the 1.3M model.
 
+A link to the Streamlit dashboard: https://job-skills-validation-kaggle-202404.streamlit.app/
+
 ## Repository layout
 
 | Path | What it does |
