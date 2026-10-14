@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-skills-validation"
+version = "0.1.0"
+description = "Data preparation, EDA, and baseline models for a LinkedIn job skills dataset."
+requires-python = ">=3.9"
+dependencies = ["pandas>=2.0,<3", "numpy>=1.24,<3", "scikit-learn==1.6.1", "joblib>=1.3,<2"]
+
+[project.optional-dependencies]
+dashboard = ["streamlit==1.41.1"]
+notebooks = ["matplotlib>=3.7,<4", "jupyterlab>=4,<5"]
+
+[tool.setuptools.packages.find]
+include = ["jobskills*"]
